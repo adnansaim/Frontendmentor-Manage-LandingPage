@@ -76,6 +76,7 @@ a:focus {
   padding: 12px 30px;
   background-color: var(--primary-bright-red);
   font-size: 0.8rem;
+  transition: all .2s linear;
   font-weight: 500;
   color: #fff;
   box-shadow: 0px 10px 10px -5px rgba(205, 70, 25, 0.7);
@@ -205,6 +206,7 @@ nav .logo {
 .nav-links li a {
   color: var(--primary-dark-blue);
   font-weight: 500;
+  transition: all .2s linear;
 }
 
 .nav-links li a:hover,
@@ -446,6 +448,10 @@ footer .container {
   justify-content: center;
 }
 
+.submit-btn{
+  transition: all .2s linear;
+}
+
 .footer-links li {
   margin-top: 20px;
 }
@@ -495,7 +501,9 @@ footer .container {
 .social-links a svg {
   transform: scale(1.4);
 }
-
+.social-color{
+  transition: all .2s linear;
+}
 .social-links a:hover .social-color,
 .social-links a:focus .social-color {
   fill: var(--primary-bright-red);
@@ -753,6 +761,7 @@ footer .container {
 
   .testimonials .btn {
     margin-top: 50px;
+    transition: all .2s linear;
   }
 
   .slider {
@@ -823,6 +832,7 @@ footer .container {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
     margin: 0px 0px;
+    cursor: pointer;
   }
 
   .social-links {
@@ -843,6 +853,7 @@ footer .container {
 
   .social-links a svg {
     transform: scale(1);
+    transition: all .2s linear;
   }
 
   .links-1 {
@@ -861,6 +872,7 @@ footer .container {
 
   .footer-links li a {
     margin: 0 0;
+    transition: all .2s linear;
   }
 
   .updates {
